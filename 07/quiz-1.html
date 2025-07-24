@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-	<meta charset="UTF-8">
-	<title>연습문제</title>
+  <meta charset="UTF-8">
+  <title>연습문제</title>
   <style>
-  
+    table {
+      caption-side: bottom;
+      border-collapse: collapse;
+      border: 1px solid black;
+    }
+
+    th {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: left;
+    }
+
+    td {
+      border: 1px solid black;
+      padding: 10px;
+    }
   </style>
 </head>
+
 <body>
   <table>
-    <caption>출처: 통계청 100대 지표</caption>
+    <caption style="text-align: right;">출처: 통계청 100대 지표</caption>
+    <colgroup>
+      <col>
+      <col>
+      <col>
+      <col>
+      <col style="background-color: #e5f6f6;">
+    </colgroup>
     <thead>
       <tr>
         <th>지표</th>
@@ -37,4 +61,5 @@
     </tbody>
   </table>
 </body>
+
 </html>
